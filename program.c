@@ -1,12 +1,7 @@
 #include "program.h"
-#include "dirparse.h"
-#include "utils.h"
-#include "parse.h"
+#include "dparser.h"
+#include "utilities.h"
 #include "ls.h"
-#include "cd.h"
-#include "rm.h"
-#include "creat.h"
-#include "size.h"
 #include <stdio.h>
 #include <string.h>
 
