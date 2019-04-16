@@ -121,8 +121,6 @@ void ParseBootSector(void) {
   fread(store_bytes, sizeof(char), 2, ImageFile);
   rr.BPB_BkBootSec = little_to_big(store_bytes, 2);
   
-  // This will print as "(null)", which is inteded to illustrate that this
-  // region is indeed null
   fseek(ImageFile, 52, SEEK_SET);
   fread(store_bytes, sizeof(char), 12, ImageFile);
   rr.BPB_Reserved = little_to_big(store_bytes, 12);
