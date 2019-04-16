@@ -57,6 +57,7 @@ void run(char* entry){
 		}
 
 }
-
+void getInput(void){
+}
 
 }
