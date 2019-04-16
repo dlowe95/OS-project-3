@@ -1,6 +1,6 @@
     
-#ifndef _UTILS_H
-#define _UTILS_H
+#ifndef _UTILITIES_H
+#define _UTILITIES_H
 #include <stdio.h>
 
 char* ImageFileName;
