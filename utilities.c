@@ -1,5 +1,5 @@
 #include "utils.h"
-#include "FATImage.h"
+#include "FATImg.h"
 #include <stdio.h>
 #include <stdlib.h>
 
