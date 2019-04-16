@@ -1,4 +1,12 @@
 #include "program.h"
+#include "dirparse.h"
+#include "utils.h"
+#include "parse.h"
+#include "ls.h"
+#include "cd.h"
+#include "rm.h"
+#include "creat.h"
+#include "size.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -13,8 +21,8 @@ void run(char* entry){
 			break;
 		}
 		// info
-		else if(){
-
+		else if(strcmp(INPUT[0], "info") == 0){
+			PrintBootSector();
 		}
 		// ls
 		else if(){
